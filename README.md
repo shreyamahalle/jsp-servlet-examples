@@ -69,4 +69,5 @@ CREATE TABLE users (
     password VARCHAR(100) NOT NULL
 );
 
+### 📌 Step 2: Insert Sample User
 
