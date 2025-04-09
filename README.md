@@ -9,26 +9,28 @@ A simple user authentication system built using **JSP**, **Servlets**, **JDBC**,
 
 ## 📁 Project Structure
 LoginSystem/
-│ ├── src/ 
-│└── com/shreya/jspservlet/ 
-│ ├── controller/
-│ │ └── UserLoginController.java 
-│ ├── model/
-│ │ └── User.java 
-│ ├── service/
-│ │ └── UserService.java 
-│ ├── repository/ 
-│ │ └── UserRepository.java
-│ └── util/
-│ └── DBConnection.java 
-│ ├── WebContent/
-│ ├── login.jsp 
-│ ├── success.jsp
-│ ├── error.jsp 
-│ └── WEB-INF/ 
-│ └── web.xml
-│ └── README.md
-
+│
+├── src/
+│   └── com/shreya/jspservlet/
+│       ├── controller/
+│       │   └── UserLoginController.java
+│       ├── model/
+│       │   └── User.java
+│       ├── repository/
+│       │   └── UserRepository.java
+│       ├── service/
+│       │   └── UserService.java
+│       └── util/
+│           └── DBConnection.java
+│
+├── WebContent/
+│   ├── login.jsp
+│   ├── success.jsp
+│   ├── error.jsp
+│   └── WEB-INF/
+│       └── web.xml
+│
+└── README.md
 
 ---
 
@@ -70,6 +72,16 @@ CREATE TABLE users (
 );
 ```
 ### 📌 Step 2: Insert Sample User
+```sql
+INSERT INTO users (username, password) VALUES ('admin', 'admin123');
 
+```
+⚙️ Configuration
+1. Update DB credentials
+   
+In DBConnection.java, update your MySQL details:
+private static final String URL = "jdbc:mysql://localhost:3306/login_db";
+private static final String USER = "root";
+private static final String PASSWORD = "your_password";
 
 
