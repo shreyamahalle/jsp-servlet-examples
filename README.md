@@ -115,10 +115,15 @@ INSERT INTO users (username, password) VALUES ('admin', 'admin123');
 - Front-end UI improvement with Bootstrap
 
 
+---
 
-🙋 Author
-Shreya Mahalle
+## 👨‍💻 Author
+
+Shreya Mahalle  
+[GitHub](https://github.com/shreyamahalle) | [LinkedIn](https://linkedin.com/in/shreyamahalle)
 🔗 JSP Servlet Projects | Java EE Enthusiast
+
+---
 
 
 
