@@ -84,4 +84,33 @@ INSERT INTO users (username, password) VALUES ('admin', 'admin123');
 - private static final String USER = "root";
 - private static final String PASSWORD = "your_password";
 
+### 🧪 How It Works
+- login.jsp → User submits login form
+
+- UserLoginController (Servlet) handles POST
+
+- UserService checks credentials using UserRepository
+
+- If valid → redirect to success.jsp
+
+- Else → redirect to error.jsp
+
+### 📌 To Do / Improvements
+- Add user registration page
+
+- Add password hashing
+
+- Session management and logout
+
+- Role-based dashboard (Admin/User)
+
+- Front-end UI improvement with Bootstrap
+
+
+
+🙋 Author
+Shreya Mahalle
+🔗 JSP Servlet Projects | Java EE Enthusiast
+
+
 
