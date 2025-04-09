@@ -8,5 +8,5 @@ A simple user authentication system built using **JSP**, **Servlets**, **JDBC**,
 ---
 
 ## 📁 Project Structure
-
+LoginSystem/ │ ├── src/ │ └── com/shreya/jspservlet/ │ ├── controller/ │ │ └── UserLoginController.java │ ├── model/ │ │ └── User.java │ ├── service/ │ │ └── UserService.java │ ├── repository/ │ │ └── UserRepository.java │ └── util/ │ └── DBConnection.java │ ├── WebContent/ │ ├── login.jsp │ ├── success.jsp │ ├── error.jsp │ └── WEB-INF/ │ └── web.xml │ └── README.md
 
