@@ -76,12 +76,12 @@ CREATE TABLE users (
 INSERT INTO users (username, password) VALUES ('admin', 'admin123');
 
 ```
-⚙️ Configuration
-1. Update DB credentials
+###⚙️ Configuration
+- 1. Update DB credentials
    
-In DBConnection.java, update your MySQL details:
-private static final String URL = "jdbc:mysql://localhost:3306/login_db";
-private static final String USER = "root";
-private static final String PASSWORD = "your_password";
+- In DBConnection.java, update your MySQL details:
+- private static final String URL = "jdbc:mysql://localhost:3306/login_db";
+- private static final String USER = "root";
+- private static final String PASSWORD = "your_password";
 
 
